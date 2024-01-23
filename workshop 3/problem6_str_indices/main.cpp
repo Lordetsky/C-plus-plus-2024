@@ -16,7 +16,7 @@
 
 int main()
 {
-    // TODO: input your code here
+    int a = 10;
 
     return 0;
 }
