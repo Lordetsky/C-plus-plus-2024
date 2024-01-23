@@ -1,0 +1,4 @@
+C:/Users/arsen/CLionProjects/C course 2024/workshop 2/src/cmake-build-debug/CMakeFiles/ex1.dir
+C:/Users/arsen/CLionProjects/C course 2024/workshop 2/src/cmake-build-debug/CMakeFiles/ex2.dir
+C:/Users/arsen/CLionProjects/C course 2024/workshop 2/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/arsen/CLionProjects/C course 2024/workshop 2/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

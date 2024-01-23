@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\arsen\CLionProjects\C course 2024 Select CMakeLists.txt
