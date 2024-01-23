@@ -12,11 +12,14 @@
 /// std::string object.
 ///
 ////////////////////////////////////////////////////////////////////////////////
+#include <iostream>
 
 
 int main()
 {
-    int a = 10;
+    std::string str;
+    std::cin >> str;
+    std::cout << str << ' ' << str.length();
 
     return 0;
 }

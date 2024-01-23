@@ -11,7 +11,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Workshop1" targetName="ex1" />
+      <config projectName="Workshops3_4" targetName="problem6_str_indices" />
+      <config projectName="Workshops3_4" targetName="problem4_str_funcs" />
+      <config projectName="Workshops3_4" targetName="problem5_print_ascii" />
+      <config projectName="Workshops3_4" targetName="problem8_enh_mult_table_2" />
+      <config projectName="Workshops3_4" targetName="problem7_mult_table_2" />
+      <config projectName="Workshops3_4" targetName="problem2_len_of_cstr" />
+      <config projectName="Workshops3_4" targetName="problem1_hello" />
+      <config projectName="Workshops3_4" targetName="problem3_getline" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,10 +27,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="Creating project">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest1/src/g/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contest1/src/g/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-84a8687c0ae98e9e63cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-23T19-06-58-0129.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/problem5_print_ascii/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem5_print_ascii/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/problem6_str_indices/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem6_str_indices/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/problem7_mult_table_2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem7_mult_table_2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/problem8_enh_mult_table_2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem8_enh_mult_table_2/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +82,9 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "CMake Application.ex1.executor": "Run",
+    "CMake Application.problem6_str_indices.executor": "Run",
+    "CMake Application.problem7_mult_table_2.executor": "Run",
+    "CMake Application.problem8_enh_mult_table_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -81,17 +101,62 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.problem8_enh_mult_table_2">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshop1" TARGET_NAME="ex1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshop1" RUN_TARGET_NAME="ex1">
+    <configuration name="problem1_hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem1_hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem1_hello">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="problem2_len_of_cstr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem2_len_of_cstr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem2_len_of_cstr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem3_getline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem3_getline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem3_getline">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem4_str_funcs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem4_str_funcs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem4_str_funcs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem5_print_ascii" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem5_print_ascii" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem5_print_ascii">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem6_str_indices" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem6_str_indices" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem6_str_indices">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem7_mult_table_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem7_mult_table_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem7_mult_table_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem8_enh_mult_table_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem8_enh_mult_table_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem8_enh_mult_table_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.problem1_hello" />
+      <item itemvalue="CMake Application.problem2_len_of_cstr" />
+      <item itemvalue="CMake Application.problem3_getline" />
+      <item itemvalue="CMake Application.problem4_str_funcs" />
+      <item itemvalue="CMake Application.problem5_print_ascii" />
+      <item itemvalue="CMake Application.problem6_str_indices" />
+      <item itemvalue="CMake Application.problem7_mult_table_2" />
+      <item itemvalue="CMake Application.problem8_enh_mult_table_2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706035327346</updated>
       <workItem from="1706035328950" duration="724000" />
-      <workItem from="1706036081489" duration="1464000" />
+      <workItem from="1706036081489" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />
@@ -112,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706037247247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1706037677922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706037677922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating project" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
