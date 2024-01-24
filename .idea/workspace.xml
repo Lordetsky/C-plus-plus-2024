@@ -28,19 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contest1/src/g/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contest1/src/g/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-84a8687c0ae98e9e63cb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-23T19-06-58-0129.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem5_print_ascii/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem5_print_ascii/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem6_str_indices/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem6_str_indices/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem7_mult_table_2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem7_mult_table_2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem8_enh_mult_table_2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/problem8_enh_mult_table_2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,33 +67,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CMake Application.ex1.executor": "Run",
-    "CMake Application.problem6_str_indices.executor": "Run",
-    "CMake Application.problem7_mult_table_2.executor": "Run",
-    "CMake Application.problem8_enh_mult_table_2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/arsen/CLionProjects/C course 2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem6_str_indices.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem7_mult_table_2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem8_enh_mult_table_2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arsen/CLionProjects/C course 2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="CMake Application.problem8_enh_mult_table_2">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="problem1_hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Workshops3_4" TARGET_NAME="problem1_hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Workshops3_4" RUN_TARGET_NAME="problem1_hello">
@@ -168,6 +157,7 @@
       <updated>1706035327346</updated>
       <workItem from="1706035328950" duration="724000" />
       <workItem from="1706036081489" duration="3127000" />
+      <workItem from="1706089479278" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />

@@ -59,5 +59,6 @@ int main()
         std::cin >> m;
     } while (m != 0);
 
+
     return 0;
 }
