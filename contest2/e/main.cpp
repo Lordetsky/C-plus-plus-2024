@@ -1,21 +1,26 @@
 #include <iostream>
 
-int main() {
-    int n, k, m;
-    std::cin >> n >> k >> m;
 
-    if (k >= m) {
-        int counter = 0, k_counter;
-        while (n >= k){
-            k_counter = n / k;
-            n %= k;
-            counter += (k / m) * k_counter;
-            n += (k % m) * k_counter;
-        }
-
-        std::cout << counter;
+std::string AddOne(std::string str, int i){
+    if (str[i] - '0' < 9) {
+        str[i] += 1;
     }
-    else std::cout << 0;
+    else if (i == 0){
+        str[i] = '0';
+        return "1" + str;
+    }
+    else{
+        str[i] = '0';
+        str = AddOne(str, i - 1);
+    }
+
+    return str;
+}
+
+int main() {
+    std::string str;
+    std::cin >> str;
+    std::cout << AddOne(str, str.length() - 1);
 
     return 0;
 }
