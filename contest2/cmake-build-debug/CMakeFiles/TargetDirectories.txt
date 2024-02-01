@@ -1,0 +1,10 @@
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemA.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemB.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemC_v1.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemC_v2.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemD.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemE.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemF.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/ProblemG.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

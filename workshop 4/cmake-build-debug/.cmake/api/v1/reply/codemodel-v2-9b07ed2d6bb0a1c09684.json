@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tetsi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem10_copy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem10_copy-Debug-fc7a88b91dac18740df3.json",
+					"name" : "problem10_copy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_invert_bit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_invert_bit-Debug-da8122773d4e4eea214a.json",
+					"name" : "problem1_invert_bit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_count_bits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_count_bits-Debug-90444e2e0b8b728e1281.json",
+					"name" : "problem2_count_bits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_invert_bits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_invert_bits-Debug-5d3d9c4fe66e1b764e8a.json",
+					"name" : "problem3_invert_bits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4_bit_mask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4_bit_mask-Debug-de52a770a74aa7fb2e1b.json",
+					"name" : "problem4_bit_mask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem5_bit_mask2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem5_bit_mask2-Debug-9751cb96be27b3e67bda.json",
+					"name" : "problem5_bit_mask2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem6_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem6_sum-Debug-31a8ff36e325684c18b4.json",
+					"name" : "problem6_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem7_swap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem7_swap-Debug-6aad79859c00787fea70.json",
+					"name" : "problem7_swap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem8_max_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem8_max_array-Debug-4fee31a13bf19a49517b.json",
+					"name" : "problem8_max_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem9_pointer_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem9_pointer_array-Debug-30e1cc6f370658c72641.json",
+					"name" : "problem9_pointer_array",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/arsen/CLionProjects/C course 2024/workshop 4/cmake-build-debug",
+		"source" : "C:/Users/arsen/CLionProjects/C course 2024/workshop 4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

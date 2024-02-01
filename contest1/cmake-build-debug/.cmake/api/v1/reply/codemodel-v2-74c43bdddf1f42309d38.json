@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Contest1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemA-Debug-73af90eae73f3794047d.json",
+					"name" : "ProblemA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemB-Debug-871457d1aa77313fb8a7.json",
+					"name" : "ProblemB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemC-Debug-b581c73af7b0fd7f2ed7.json",
+					"name" : "ProblemC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemD-Debug-244b0aecb7d00f45190b.json",
+					"name" : "ProblemD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemE-Debug-fdf5cb346fa4ef747342.json",
+					"name" : "ProblemE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemF-Debug-e0881e2e04d8dd4646b0.json",
+					"name" : "ProblemF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemG-Debug-aa18b2b754bbb3e578d2.json",
+					"name" : "ProblemG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemH-Debug-51e95a6ce2544b56f4de.json",
+					"name" : "ProblemH",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/arsen/CLionProjects/C course 2024/contest1/cmake-build-debug",
+		"source" : "C:/Users/arsen/CLionProjects/C course 2024/contest1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
