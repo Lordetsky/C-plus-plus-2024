@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "05_06_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_circleArea::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_circleArea-Debug-9dcb5902f9d9dcd36866.json",
+					"name" : "problem1_circleArea",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_increment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_increment-Debug-ef7fd06383f1162b32fb.json",
+					"name" : "problem2_increment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_recursive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_recursive-Debug-874b40e68f0cbc83bb2a.json",
+					"name" : "problem3_recursive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4_print::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4_print-Debug-ed05cd1cfa4078f0181b.json",
+					"name" : "problem4_print",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem5_transformArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem5_transformArray-Debug-84cfa1c10c2aa6970114.json",
+					"name" : "problem5_transformArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem6_executeCallback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem6_executeCallback-Debug-1d021297464864ad49eb.json",
+					"name" : "problem6_executeCallback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem7_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem7_sum-Debug-4233ba627532bbdbcee1.json",
+					"name" : "problem7_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem8_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem8_filter-Debug-945b8707e23b31e526bb.json",
+					"name" : "problem8_filter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/arsen/CLionProjects/C course 2024/week4/cmake-build-debug",
+		"source" : "C:/Users/arsen/CLionProjects/C course 2024/week4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
