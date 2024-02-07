@@ -5,7 +5,7 @@ std::string SubOne(std::string str, int i){
     if (str[i] - '0' > 0) {
         str[i] -= 1;
     }
-    else{
+    else if (i != 0){
         str[i] = '9';
         str = SubOne(str, i - 1);
     }
@@ -42,17 +42,16 @@ bool dev6(std::string str){
 
 bool dev7(std::string str){
     int len = str.length();
-    if (len >= 2) {
-        return ((str[len - 2] - '0') * 3 + (str[len - 1] - '0')) % 7;
-    }
-    else
-        return (str[len - 1] - '0') % 7 == 0;
+    int rem = 0;
+    for (int i = 0; i < len; ++i) rem = (rem * 10 + (str[i] - '0')) % 7;
+
+    return rem == 0;
 }
 
 bool dev8(std::string str){
     int len = str.length();
     if (len >= 3)
-        return ((str[len - 3] - '0') * 100 + (str[len - 2] - '0') * 10 + (str[len - 1] - '0')) % 4 == 0;
+        return ((str[len - 3] - '0') * 100 + (str[len - 2] - '0') * 10 + (str[len - 1] - '0')) % 8 == 0;
     else if (len == 2)
         return ((str[len - 2] - '0') * 10 + (str[len - 1] - '0')) % 8 == 0;
     else

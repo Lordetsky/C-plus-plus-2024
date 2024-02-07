@@ -11,14 +11,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="05_06_sem" targetName="problem3_recursive" />
-      <config projectName="05_06_sem" targetName="problem8_filter" />
-      <config projectName="05_06_sem" targetName="problem6_executeCallback" />
-      <config projectName="05_06_sem" targetName="problem2_increment" />
-      <config projectName="05_06_sem" targetName="problem7_sum" />
-      <config projectName="05_06_sem" targetName="problem5_transformArray" />
-      <config projectName="05_06_sem" targetName="problem1_circleArea" />
-      <config projectName="05_06_sem" targetName="problem4_print" />
+      <config projectName="Contest1" targetName="ProblemC_v2" />
+      <config projectName="Contest1" targetName="ProblemC_v1" />
+      <config projectName="Contest1" targetName="ProblemB" />
+      <config projectName="Contest1" targetName="ProblemA" />
+      <config projectName="Contest1" targetName="ProblemF" />
+      <config projectName="Contest1" targetName="ProblemG" />
+      <config projectName="Contest1" targetName="ProblemD" />
+      <config projectName="Contest1" targetName="ProblemE" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -28,23 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="Updates">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-01T21-03-48-0841.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-06T20-21-32-0297.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/g/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/g/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-06T14-44-30-0102.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/problem3_recursive/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem3_recursive/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/problem4_print/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem4_print/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/problem5_transformArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem5_transformArray/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/problem6_executeCallback/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem6_executeCallback/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/problem7_sum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem7_sum/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,96 +78,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CMake Application.ProblemA.executor": "Run",
-    "CMake Application.ProblemB.executor": "Run",
-    "CMake Application.ProblemC.executor": "Run",
-    "CMake Application.ProblemD.executor": "Run",
-    "CMake Application.ProblemE.executor": "Run",
-    "CMake Application.ProblemG.executor": "Run",
-    "CMake Application.ex1.executor": "Run",
-    "CMake Application.problem1_circleArea.executor": "Run",
-    "CMake Application.problem2_increment.executor": "Run",
-    "CMake Application.problem3_recursive.executor": "Run",
-    "CMake Application.problem5_transformArray.executor": "Run",
-    "CMake Application.problem6_executeCallback.executor": "Run",
-    "CMake Application.problem6_str_indices.executor": "Run",
-    "CMake Application.problem7_mult_table_2.executor": "Run",
-    "CMake Application.problem7_sum.executor": "Run",
-    "CMake Application.problem8_enh_mult_table_2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/arsen/CLionProjects/C course 2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.ProblemA.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ProblemB.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ProblemC.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ProblemD.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ProblemE.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ProblemG.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem1_circleArea.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem2_increment.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem3_recursive.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem5_transformArray.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem6_executeCallback.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem6_str_indices.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem7_mult_table_2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem7_sum.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.problem8_enh_mult_table_2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arsen/CLionProjects/C course 2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="CMake Application.problem6_executeCallback">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+}</component>
+  <component name="RunManager" selected="CMake Application.ProblemG">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemA" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemA">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem1_circleArea" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem1_circleArea" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem1_circleArea">
+    <configuration name="ProblemB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemB">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem2_increment" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem2_increment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem2_increment">
+    <configuration name="ProblemC_v1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemC_v1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemC_v1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem3_recursive" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem3_recursive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem3_recursive">
+    <configuration name="ProblemC_v2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemC_v2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemC_v2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem4_print" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem4_print" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem4_print">
+    <configuration name="ProblemD" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemD" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemD">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem5_transformArray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem5_transformArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem5_transformArray">
+    <configuration name="ProblemE" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemE">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem6_executeCallback" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem6_executeCallback" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem6_executeCallback">
+    <configuration name="ProblemF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem7_sum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem7_sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem7_sum">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="problem8_filter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem8_filter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem8_filter">
+    <configuration name="ProblemG" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Contest1" TARGET_NAME="ProblemG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Contest1" RUN_TARGET_NAME="ProblemG">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.problem1_circleArea" />
-      <item itemvalue="CMake Application.problem2_increment" />
-      <item itemvalue="CMake Application.problem3_recursive" />
-      <item itemvalue="CMake Application.problem4_print" />
-      <item itemvalue="CMake Application.problem5_transformArray" />
-      <item itemvalue="CMake Application.problem6_executeCallback" />
-      <item itemvalue="CMake Application.problem7_sum" />
-      <item itemvalue="CMake Application.problem8_filter" />
+      <item itemvalue="CMake Application.ProblemA" />
+      <item itemvalue="CMake Application.ProblemB" />
+      <item itemvalue="CMake Application.ProblemC_v1" />
+      <item itemvalue="CMake Application.ProblemC_v2" />
+      <item itemvalue="CMake Application.ProblemD" />
+      <item itemvalue="CMake Application.ProblemE" />
+      <item itemvalue="CMake Application.ProblemF" />
+      <item itemvalue="CMake Application.ProblemG" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -191,6 +184,7 @@
       <workItem from="1707230227300" duration="265000" />
       <workItem from="1707230499799" duration="10180000" />
       <workItem from="1707297808054" duration="757000" />
+      <workItem from="1707320886401" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />
