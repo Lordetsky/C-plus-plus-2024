@@ -6,16 +6,26 @@
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a function `void executeCallback(void (*callback)())` that takes a 
+/// Write a function `void executeCallback(void (*callback)())` that takes a
 /// function pointer and executes the callback function.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
 
+void executeCallback(void (*callback)()){
+    callback();
+}
+
+void print(){
+    std::cout << "Aboba in the house\n";
+    executeCallback(print);
+    std::cout << "Странное задание";
+}
+
 int main()
 {
-    // Your code here
+    print();
 
     return 0;
 }

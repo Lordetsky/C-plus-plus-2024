@@ -11,14 +11,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="05_06_sem" targetName="problem5_transformArray" />
       <config projectName="05_06_sem" targetName="problem3_recursive" />
-      <config projectName="05_06_sem" targetName="problem1_circleArea" />
       <config projectName="05_06_sem" targetName="problem8_filter" />
-      <config projectName="05_06_sem" targetName="problem4_print" />
       <config projectName="05_06_sem" targetName="problem6_executeCallback" />
       <config projectName="05_06_sem" targetName="problem2_increment" />
       <config projectName="05_06_sem" targetName="problem7_sum" />
+      <config projectName="05_06_sem" targetName="problem5_transformArray" />
+      <config projectName="05_06_sem" targetName="problem1_circleArea" />
+      <config projectName="05_06_sem" targetName="problem4_print" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -27,184 +27,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="Оаоаоаоао makefile">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-01T21-03-48-0841.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-af5a16dac15f90478bcb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-18d473b9fb2d1d76eccf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a79138f527260311d893.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-24T10-25-35-0205.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/target-ex1-Debug-5bafd16f7a1633fe1dbf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-14b937066c1613d40252.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/ex1/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/ex1/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/ex1/main.dSYM/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/ex1/main.dSYM/Contents/Resources/DWARF/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 1/ex2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-15892069e55e28b45b14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c1e7a692611301b798a1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6e00457886d57b3b3dcb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-24T10-24-03-0590.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/target-ex1-Debug-dee20f7a63e03ae9c661.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/target-ex2-Debug-ea0df535b12d5951644d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-14b937066c1613d40252.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/Workshop2.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/ex1/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 2/ex2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dd179f7854c74516925b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0ca2b9bc1a4276eef0c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c0eaad69033b52ab2ffb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cac23bc504cb8d114f0a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-23T19-30-01-0410.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-24T15-23-08-0972.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem1_hello-Debug-68689d58f4dc978fce0a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem2_len_of_cstr-Debug-29ecaf6cf1bb02a59faa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem3_getline-Debug-568c56da875cd75a25ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem4_str_funcs-Debug-9ad03177a431a5a57b69.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem5_print_ascii-Debug-25fc70e7cc31f0e1c309.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem6_str_indices-Debug-68c2dadb40b62e6f7fd3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem7_mult_table_2-Debug-9322aa0b8ec931c64635.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/target-problem8_enh_mult_table_2-Debug-dd0cec29dbb35df0a7b2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-14b937066c1613d40252.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem1_hello/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem2_len_of_cstr/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem3_getline/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem4_str_funcs/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem5_print_ascii/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem6_str_indices/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem7_mult_table_2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 3/problem8_enh_mult_table_2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.idea/03-04 sem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-182bab0ea00f0fff0f42.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5f5691ed9de6b9631f72.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9b07ed2d6bb0a1c09684.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-01T10-01-32-0773.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem10_copy-Debug-fc7a88b91dac18740df3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem1_invert_bit-Debug-da8122773d4e4eea214a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem2_count_bits-Debug-90444e2e0b8b728e1281.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem3_invert_bits-Debug-5d3d9c4fe66e1b764e8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem4_bit_mask-Debug-de52a770a74aa7fb2e1b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem5_bit_mask2-Debug-9751cb96be27b3e67bda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem6_sum-Debug-31a8ff36e325684c18b4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem7_swap-Debug-6aad79859c00787fea70.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem8_max_array-Debug-4fee31a13bf19a49517b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/target-problem9_pointer_array-Debug-30e1cc6f370658c72641.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b7c2000ae655966cc6f0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem10_copy/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem1_invert_bit/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem1_invert_bit/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem1_invert_bit/main.dSYM/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem1_invert_bit/main.dSYM/Contents/Resources/DWARF/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem2_count_bits/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem3_invert_bits/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem4_bit_mask/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem5_bit_mask2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem6_sum/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem7_swap/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem8_max_array/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop 4/problem9_pointer_array/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest2/g/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contest2/g/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-06T14-44-30-0102.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/week4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/problem3_recursive/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem3_recursive/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/problem4_print/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem4_print/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/problem5_transformArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem5_transformArray/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/problem6_executeCallback/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem6_executeCallback/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/problem7_sum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week4/problem7_sum/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,11 +93,16 @@
     "CMake Application.ProblemC.executor": "Run",
     "CMake Application.ProblemD.executor": "Run",
     "CMake Application.ProblemE.executor": "Run",
+    "CMake Application.ProblemG.executor": "Run",
     "CMake Application.ex1.executor": "Run",
     "CMake Application.problem1_circleArea.executor": "Run",
     "CMake Application.problem2_increment.executor": "Run",
+    "CMake Application.problem3_recursive.executor": "Run",
+    "CMake Application.problem5_transformArray.executor": "Run",
+    "CMake Application.problem6_executeCallback.executor": "Run",
     "CMake Application.problem6_str_indices.executor": "Run",
     "CMake Application.problem7_mult_table_2.executor": "Run",
+    "CMake Application.problem7_sum.executor": "Run",
     "CMake Application.problem8_enh_mult_table_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -275,10 +120,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.problem2_increment">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.problem6_executeCallback">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="problem1_circleArea" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_06_sem" TARGET_NAME="problem1_circleArea" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_06_sem" RUN_TARGET_NAME="problem1_circleArea">
@@ -344,7 +189,8 @@
       <workItem from="1706036081489" duration="3127000" />
       <workItem from="1706808729258" duration="18066000" />
       <workItem from="1707230227300" duration="265000" />
-      <workItem from="1707230499799" duration="1833000" />
+      <workItem from="1707230499799" duration="10180000" />
+      <workItem from="1707297808054" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />
@@ -402,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706826785575</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1707243515533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707243515533</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,6 +283,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Contest 2" />
     <MESSAGE value="Оаоаоаоао makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оаоаоаоао makefile" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
 </project>

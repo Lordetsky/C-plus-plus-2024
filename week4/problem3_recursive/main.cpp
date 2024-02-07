@@ -12,6 +12,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include <cmath>
 
 
 int SumOfDigits(int n){
@@ -23,22 +24,11 @@ int SumOfDigits(int n){
     return sum;
 }
 
-int SumOfDigits(double n){
-    if (n == 0) return 0;
-    else if (n < 10 && n % 1 != 0) n *= 10;
-
-    int sum = n % 10;
-    sum += SumOfDigits(n / 10);
-
-    return sum;
-}
-
 int main()
 {
-    int num_1;
-    double num_2;
-    std::cin >> num_1 >> num_2;
-    std::cout << SumOfDigits(num_1) << '\n' << SumOfDigits(num_2);
+    int num;
+    std::cin >> num;
+    std::cout << SumOfDigits(num);
 
     return 0;
 }

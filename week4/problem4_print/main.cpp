@@ -12,10 +12,28 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#define defprint(A) std::cout << A << '\n'
+
+void print(int f){
+    std::cout << f << '\n';
+}
+
+void print(double f){
+    std::cout << f << '\n';
+}
 
 int main()
 {
-    // Your code here
+    int num_1;
+    double num_2;
+    std::string str;
+    std::cin >> num_1 >> num_2 >> str;
+    print(num_1);
+    print(num_2);
+    defprint(num_1);
+    defprint(num_2);
+    defprint(str);
 
     return 0;
 }
+
