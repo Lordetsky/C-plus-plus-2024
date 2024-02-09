@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Contest1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemA-Debug-d9a3b2840c133034a211.json",
+					"name" : "ProblemA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemB-Debug-c3411f34f69c2742e1b1.json",
+					"name" : "ProblemB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemC_v1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemC_v1-Debug-f2efae7c75bedc0fc491.json",
+					"name" : "ProblemC_v1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemC_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemC_v2-Debug-5c4e64ae863b90795baa.json",
+					"name" : "ProblemC_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemD-Debug-346041282f3b75c8a09f.json",
+					"name" : "ProblemD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemE-Debug-47c27c1d3db0f710b085.json",
+					"name" : "ProblemE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemF-Debug-d9cbb9990f19c30d1e9c.json",
+					"name" : "ProblemF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProblemG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProblemG-Debug-eb8c1f590a4559a73949.json",
+					"name" : "ProblemG",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug",
+		"source" : "/Users/senya/CLionProjects/C-plus-plus-2024/contest2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/cmake-build-debug/
+cmake_ninja_workdir = /Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemA
 
@@ -49,11 +49,13 @@ cmake_ninja_workdir = C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/cma
 
 build cmake_object_order_depends_target_ProblemA: phony || CMakeFiles/ProblemA.dir
 
-build CMakeFiles/ProblemA.dir/a/main.cpp.obj: CXX_COMPILER__ProblemA_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/a/main.cpp || cmake_object_order_depends_target_ProblemA
-  DEP_FILE = CMakeFiles\ProblemA.dir\a\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemA.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemA.dir\a
+build CMakeFiles/ProblemA.dir/a/main.cpp.o: CXX_COMPILER__ProblemA_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/a/main.cpp || cmake_object_order_depends_target_ProblemA
+  DEP_FILE = CMakeFiles/ProblemA.dir/a/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemA.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemA.dir/a
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemA.dir/
+  TARGET_PDB = ProblemA.pdb
 
 
 # =============================================================================
@@ -61,17 +63,16 @@ build CMakeFiles/ProblemA.dir/a/main.cpp.obj: CXX_COMPILER__ProblemA_unscanned_D
 
 
 #############################################
-# Link the executable ProblemA.exe
+# Link the executable ProblemA
 
-build ProblemA.exe: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.dir/a/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemA.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemA.exe
-  TARGET_IMPLIB = libProblemA.dll.a
-  TARGET_PDB = ProblemA.exe.dbg
+build ProblemA: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.dir/a/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemA.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemA.dir/
+  TARGET_FILE = ProblemA
+  TARGET_PDB = ProblemA.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemB
@@ -82,11 +83,13 @@ build ProblemA.exe: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.di
 
 build cmake_object_order_depends_target_ProblemB: phony || CMakeFiles/ProblemB.dir
 
-build CMakeFiles/ProblemB.dir/b/main.cpp.obj: CXX_COMPILER__ProblemB_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/b/main.cpp || cmake_object_order_depends_target_ProblemB
-  DEP_FILE = CMakeFiles\ProblemB.dir\b\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemB.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemB.dir\b
+build CMakeFiles/ProblemB.dir/b/main.cpp.o: CXX_COMPILER__ProblemB_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/b/main.cpp || cmake_object_order_depends_target_ProblemB
+  DEP_FILE = CMakeFiles/ProblemB.dir/b/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemB.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemB.dir/b
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemB.dir/
+  TARGET_PDB = ProblemB.pdb
 
 
 # =============================================================================
@@ -94,17 +97,16 @@ build CMakeFiles/ProblemB.dir/b/main.cpp.obj: CXX_COMPILER__ProblemB_unscanned_D
 
 
 #############################################
-# Link the executable ProblemB.exe
+# Link the executable ProblemB
 
-build ProblemB.exe: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.dir/b/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemB.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemB.exe
-  TARGET_IMPLIB = libProblemB.dll.a
-  TARGET_PDB = ProblemB.exe.dbg
+build ProblemB: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.dir/b/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemB.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemB.dir/
+  TARGET_FILE = ProblemB
+  TARGET_PDB = ProblemB.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemC_v1
@@ -115,11 +117,13 @@ build ProblemB.exe: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.di
 
 build cmake_object_order_depends_target_ProblemC_v1: phony || CMakeFiles/ProblemC_v1.dir
 
-build CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.obj: CXX_COMPILER__ProblemC_v1_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/c/main_v1.cpp || cmake_object_order_depends_target_ProblemC_v1
-  DEP_FILE = CMakeFiles\ProblemC_v1.dir\c\main_v1.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemC_v1.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemC_v1.dir\c
+build CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.o: CXX_COMPILER__ProblemC_v1_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/c/main_v1.cpp || cmake_object_order_depends_target_ProblemC_v1
+  DEP_FILE = CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemC_v1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemC_v1.dir/c
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemC_v1.dir/
+  TARGET_PDB = ProblemC_v1.pdb
 
 
 # =============================================================================
@@ -127,17 +131,16 @@ build CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.obj: CXX_COMPILER__ProblemC_v1_un
 
 
 #############################################
-# Link the executable ProblemC_v1.exe
+# Link the executable ProblemC_v1
 
-build ProblemC_v1.exe: CXX_EXECUTABLE_LINKER__ProblemC_v1_Debug CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemC_v1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemC_v1.exe
-  TARGET_IMPLIB = libProblemC_v1.dll.a
-  TARGET_PDB = ProblemC_v1.exe.dbg
+build ProblemC_v1: CXX_EXECUTABLE_LINKER__ProblemC_v1_Debug CMakeFiles/ProblemC_v1.dir/c/main_v1.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemC_v1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemC_v1.dir/
+  TARGET_FILE = ProblemC_v1
+  TARGET_PDB = ProblemC_v1.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemC_v2
@@ -148,11 +151,13 @@ build ProblemC_v1.exe: CXX_EXECUTABLE_LINKER__ProblemC_v1_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_ProblemC_v2: phony || CMakeFiles/ProblemC_v2.dir
 
-build CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.obj: CXX_COMPILER__ProblemC_v2_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/c/main_v2.cpp || cmake_object_order_depends_target_ProblemC_v2
-  DEP_FILE = CMakeFiles\ProblemC_v2.dir\c\main_v2.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemC_v2.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemC_v2.dir\c
+build CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.o: CXX_COMPILER__ProblemC_v2_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/c/main_v2.cpp || cmake_object_order_depends_target_ProblemC_v2
+  DEP_FILE = CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemC_v2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemC_v2.dir/c
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemC_v2.dir/
+  TARGET_PDB = ProblemC_v2.pdb
 
 
 # =============================================================================
@@ -160,17 +165,16 @@ build CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.obj: CXX_COMPILER__ProblemC_v2_un
 
 
 #############################################
-# Link the executable ProblemC_v2.exe
+# Link the executable ProblemC_v2
 
-build ProblemC_v2.exe: CXX_EXECUTABLE_LINKER__ProblemC_v2_Debug CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemC_v2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemC_v2.exe
-  TARGET_IMPLIB = libProblemC_v2.dll.a
-  TARGET_PDB = ProblemC_v2.exe.dbg
+build ProblemC_v2: CXX_EXECUTABLE_LINKER__ProblemC_v2_Debug CMakeFiles/ProblemC_v2.dir/c/main_v2.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemC_v2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemC_v2.dir/
+  TARGET_FILE = ProblemC_v2
+  TARGET_PDB = ProblemC_v2.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemD
@@ -181,11 +185,13 @@ build ProblemC_v2.exe: CXX_EXECUTABLE_LINKER__ProblemC_v2_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_ProblemD: phony || CMakeFiles/ProblemD.dir
 
-build CMakeFiles/ProblemD.dir/d/main.cpp.obj: CXX_COMPILER__ProblemD_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/d/main.cpp || cmake_object_order_depends_target_ProblemD
-  DEP_FILE = CMakeFiles\ProblemD.dir\d\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemD.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemD.dir\d
+build CMakeFiles/ProblemD.dir/d/main.cpp.o: CXX_COMPILER__ProblemD_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/d/main.cpp || cmake_object_order_depends_target_ProblemD
+  DEP_FILE = CMakeFiles/ProblemD.dir/d/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemD.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemD.dir/d
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemD.dir/
+  TARGET_PDB = ProblemD.pdb
 
 
 # =============================================================================
@@ -193,17 +199,16 @@ build CMakeFiles/ProblemD.dir/d/main.cpp.obj: CXX_COMPILER__ProblemD_unscanned_D
 
 
 #############################################
-# Link the executable ProblemD.exe
+# Link the executable ProblemD
 
-build ProblemD.exe: CXX_EXECUTABLE_LINKER__ProblemD_Debug CMakeFiles/ProblemD.dir/d/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemD.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemD.exe
-  TARGET_IMPLIB = libProblemD.dll.a
-  TARGET_PDB = ProblemD.exe.dbg
+build ProblemD: CXX_EXECUTABLE_LINKER__ProblemD_Debug CMakeFiles/ProblemD.dir/d/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemD.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemD.dir/
+  TARGET_FILE = ProblemD
+  TARGET_PDB = ProblemD.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemE
@@ -214,11 +219,13 @@ build ProblemD.exe: CXX_EXECUTABLE_LINKER__ProblemD_Debug CMakeFiles/ProblemD.di
 
 build cmake_object_order_depends_target_ProblemE: phony || CMakeFiles/ProblemE.dir
 
-build CMakeFiles/ProblemE.dir/e/main.cpp.obj: CXX_COMPILER__ProblemE_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/e/main.cpp || cmake_object_order_depends_target_ProblemE
-  DEP_FILE = CMakeFiles\ProblemE.dir\e\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemE.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemE.dir\e
+build CMakeFiles/ProblemE.dir/e/main.cpp.o: CXX_COMPILER__ProblemE_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/e/main.cpp || cmake_object_order_depends_target_ProblemE
+  DEP_FILE = CMakeFiles/ProblemE.dir/e/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemE.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemE.dir/e
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemE.dir/
+  TARGET_PDB = ProblemE.pdb
 
 
 # =============================================================================
@@ -226,17 +233,16 @@ build CMakeFiles/ProblemE.dir/e/main.cpp.obj: CXX_COMPILER__ProblemE_unscanned_D
 
 
 #############################################
-# Link the executable ProblemE.exe
+# Link the executable ProblemE
 
-build ProblemE.exe: CXX_EXECUTABLE_LINKER__ProblemE_Debug CMakeFiles/ProblemE.dir/e/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemE.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemE.exe
-  TARGET_IMPLIB = libProblemE.dll.a
-  TARGET_PDB = ProblemE.exe.dbg
+build ProblemE: CXX_EXECUTABLE_LINKER__ProblemE_Debug CMakeFiles/ProblemE.dir/e/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemE.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemE.dir/
+  TARGET_FILE = ProblemE
+  TARGET_PDB = ProblemE.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemF
@@ -247,11 +253,13 @@ build ProblemE.exe: CXX_EXECUTABLE_LINKER__ProblemE_Debug CMakeFiles/ProblemE.di
 
 build cmake_object_order_depends_target_ProblemF: phony || CMakeFiles/ProblemF.dir
 
-build CMakeFiles/ProblemF.dir/f/main.cpp.obj: CXX_COMPILER__ProblemF_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/f/main.cpp || cmake_object_order_depends_target_ProblemF
-  DEP_FILE = CMakeFiles\ProblemF.dir\f\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemF.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemF.dir\f
+build CMakeFiles/ProblemF.dir/f/main.cpp.o: CXX_COMPILER__ProblemF_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/f/main.cpp || cmake_object_order_depends_target_ProblemF
+  DEP_FILE = CMakeFiles/ProblemF.dir/f/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemF.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemF.dir/f
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemF.dir/
+  TARGET_PDB = ProblemF.pdb
 
 
 # =============================================================================
@@ -259,17 +267,16 @@ build CMakeFiles/ProblemF.dir/f/main.cpp.obj: CXX_COMPILER__ProblemF_unscanned_D
 
 
 #############################################
-# Link the executable ProblemF.exe
+# Link the executable ProblemF
 
-build ProblemF.exe: CXX_EXECUTABLE_LINKER__ProblemF_Debug CMakeFiles/ProblemF.dir/f/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemF.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemF.exe
-  TARGET_IMPLIB = libProblemF.dll.a
-  TARGET_PDB = ProblemF.exe.dbg
+build ProblemF: CXX_EXECUTABLE_LINKER__ProblemF_Debug CMakeFiles/ProblemF.dir/f/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemF.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemF.dir/
+  TARGET_FILE = ProblemF
+  TARGET_PDB = ProblemF.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemG
@@ -280,11 +287,13 @@ build ProblemF.exe: CXX_EXECUTABLE_LINKER__ProblemF_Debug CMakeFiles/ProblemF.di
 
 build cmake_object_order_depends_target_ProblemG: phony || CMakeFiles/ProblemG.dir
 
-build CMakeFiles/ProblemG.dir/g/main.cpp.obj: CXX_COMPILER__ProblemG_unscanned_Debug C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/g/main.cpp || cmake_object_order_depends_target_ProblemG
-  DEP_FILE = CMakeFiles\ProblemG.dir\g\main.cpp.obj.d
-  FLAGS = -g -O0 -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProblemG.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProblemG.dir\g
+build CMakeFiles/ProblemG.dir/g/main.cpp.o: CXX_COMPILER__ProblemG_unscanned_Debug /Users/senya/CLionProjects/C-plus-plus-2024/contest2/g/main.cpp || cmake_object_order_depends_target_ProblemG
+  DEP_FILE = CMakeFiles/ProblemG.dir/g/main.cpp.o.d
+  FLAGS = -g -O0 -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProblemG.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProblemG.dir/g
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemG.dir/
+  TARGET_PDB = ProblemG.pdb
 
 
 # =============================================================================
@@ -292,24 +301,23 @@ build CMakeFiles/ProblemG.dir/g/main.cpp.obj: CXX_COMPILER__ProblemG_unscanned_D
 
 
 #############################################
-# Link the executable ProblemG.exe
+# Link the executable ProblemG
 
-build ProblemG.exe: CXX_EXECUTABLE_LINKER__ProblemG_Debug CMakeFiles/ProblemG.dir/g/main.cpp.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProblemG.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ProblemG.exe
-  TARGET_IMPLIB = libProblemG.dll.a
-  TARGET_PDB = ProblemG.exe.dbg
+build ProblemG: CXX_EXECUTABLE_LINKER__ProblemG_Debug CMakeFiles/ProblemG.dir/g/main.cpp.o
+  FLAGS = -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ProblemG.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ProblemG.dir/
+  TARGET_FILE = ProblemG
+  TARGET_PDB = ProblemG.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\arsen\CLionProjects\C course 2024\contest2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cd /Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -320,7 +328,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\arsen\CLionProjects\C course 2024\contest2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\arsen\CLionProjects\C course 2024\contest2" -B"C:\Users\arsen\CLionProjects\C course 2024\contest2\cmake-build-debug""
+  COMMAND = cd /Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/senya/CLionProjects/C-plus-plus-2024/contest2 -B/Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -330,31 +338,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ProblemA: phony ProblemA.exe
-
-build ProblemB: phony ProblemB.exe
-
-build ProblemC_v1: phony ProblemC_v1.exe
-
-build ProblemC_v2: phony ProblemC_v2.exe
-
-build ProblemD: phony ProblemD.exe
-
-build ProblemE: phony ProblemE.exe
-
-build ProblemF: phony ProblemF.exe
-
-build ProblemG: phony ProblemG.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/arsen/CLionProjects/C course 2024/contest2/cmake-build-debug
+# Folder: /Users/senya/CLionProjects/C-plus-plus-2024/contest2/cmake-build-debug
 
-build all: phony ProblemA.exe ProblemB.exe ProblemC_v1.exe ProblemC_v2.exe ProblemD.exe ProblemE.exe ProblemF.exe ProblemG.exe
+build all: phony ProblemA ProblemB ProblemC_v1 ProblemC_v2 ProblemD ProblemE ProblemF ProblemG
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -368,14 +360,14 @@ build all: phony ProblemA.exe ProblemB.exe ProblemC_v1.exe ProblemC_v2.exe Probl
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/C-plus-plus-2024/contest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/arsen/CLionProjects/C$ course$ 2024/contest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/C-plus-plus-2024/contest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
