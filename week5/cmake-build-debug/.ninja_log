@@ -1,0 +1,11 @@
+# ninja log v5
+5	762	1707688252764193207	CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o	cea728e2606f796c
+763	921	1707688252921738605	problem1_sum	72e98307c0d5a304
+696	837	1707689039628756501	problem2_copy	603903b358a960fa
+5	696	1707689039486967583	CMakeFiles/problem2_copy.dir/problem2_copy/main.cpp.o	eb9c85cb0ad541a9
+0	739	1707691711690006664	CMakeFiles/problem3_statictics.dir/problem3_statictics/main.cpp.o	cc485a0c567aacba
+739	894	1707691711846176280	problem3_statictics	6a1e2a4e40fd8b5a
+0	860	1707726636192500744	CMakeFiles/problem4_replace.dir/problem4_replace/main.cpp.o	84990b8729192c75
+861	1028	1707726636361845710	problem4_replace	525266b2e2a1c9ab
+3	3613	1707752078302270505	CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o	cea728e2606f796c
+3613	5631	1707752080322924284	problem1_sum	72e98307c0d5a304

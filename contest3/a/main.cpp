@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 
 //void TryToOpen(){
@@ -13,45 +12,43 @@
 //    file.close();
 //}
 
-std::vector<int> CheckText(std::ifstream &file){
-    int count_letter = 0, count_words = 0, count_lines = 0, counter = 0;
+void CheckText(std::ifstream &file, int* count_lines, int* count_words, int* count_letters){
+    int counter = 0;
     std::string str;
 
     while(std::getline(file, str)){
-        count_lines++;
+        (*count_lines)++;
         if (!str.empty()) {
             for (char c : str) {
                 if (isalpha(c)) {
-                    count_letter++;
+                    (*count_letters)++;
                     counter++;
                 }
-                else if (c == ' ' and counter > 0) {
-                    count_words++;
+                else if (counter > 0) {
+                    (*count_words)++;
                     counter = 0;
                 }
             }
 
             if (counter > 0) {
-                count_words++;
+                (*count_words)++;
                 counter = 0;
             }
         }
-
     }
-
-    std::vector<int> ans = {count_letter, count_words, count_lines};
-    return ans;
 }
 
 int main()
 {
     std::ifstream file("input.txt");
-    std::vector<int> ptr (CheckText(file));
+    int lines = 0, words = 0, letters = 0;
+
+    CheckText(file, &lines, &words, &letters);
 
     std::cout << "Input file contains:" << '\n'
-              << ptr[0] << " letters" << '\n'
-              << ptr[1] << " words" << '\n'
-              << ptr[2] << " lines";
+              << letters << " letters" << '\n'
+              << words << " words" << '\n'
+              << lines << " lines";Ы
 
     file.close();
     return 0;
