@@ -9,11 +9,33 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include <fstream>
 #include <iostream>
-#include <string>
+#include <vector>
 
-void reverseFileContent(const std::string& inputFilePath, const std::string& outputFilePath);
+void reverseFileContent(const std::string& inputFilePath, const std::string& outputFilePath){
+    std::ifstream input(inputFilePath);
+    std::ofstream output(outputFilePath);
+    if (!input.is_open() or !output.is_open()) {
+        std::cout << "Error blinb";
+        return;
+    }
+    else std::cout << "Vse norm" << ' ';
+
+    std::string str;
+    std::vector<std::string> arr;
+
+    while(std::getline(input, str)){
+        std::reverse(str.begin(), str.end());
+        arr.emplace(arr.cbegin(), str);
+    }
+
+    for (auto i : arr) output << i << '\n';
+
+    input.close();
+    output.close();
+}
 
 int main() {
-    reverseFileContent("input.txt", "output_reversed.txt");
+    reverseFileContent("/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem5_reverse/input.txt",
+                       "/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem5_reverse/reversed_input.txt");
     return 0;
 }
