@@ -21,9 +21,28 @@ char caesarCipher(char ch, int shift) {
     return ch;
 }
 
-void encryptFileContent(const std::string& inputFilePath, const std::string& outputFilePath, int shift = 3);
+void encryptFileContent(const std::string& inputFilePath, const std::string& outputFilePath, int shift = 3){
+    std::ifstream input(inputFilePath);
+    std::ofstream output(outputFilePath);
+    if (!input.is_open() or !output.is_open()) {
+        std::cout << "Error blinb";
+        return;
+    }
+    else std::cout << "Vse norm" << ' ';
+
+    std::string str;
+
+    while (std::getline(input, str)){
+        for (char c : str) output << caesarCipher(c, shift);
+        output << '\n';
+    }
+
+    input.close();
+    output.close();
+}
 
 int main() {
-    encryptFileContent("input.txt", "encrypted.txt");
+    encryptFileContent("/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem11_cipher/input.txt",
+                       "/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem11_cipher/encrypted.txt");
     return 0;
 }

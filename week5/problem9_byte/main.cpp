@@ -37,20 +37,22 @@ void reverseCopyBinaryFile(const std::string& inputFilePath, const std::string& 
     std::ofstream up_file (inputFilePath, std::ios::out | std::ios::binary);
 
     char x;
-    while (file.read(&x, 1)){
-        up_file << x;
+    while(file.read((char*) &x, sizeof(x))) {
+        up_file.write((char *) &x, sizeof(x));
     }
+
+    file.close();
+    up_file.close();
 }
 
-using namespace std;
 static std::vector<char> ReadAllBytes(char const* filename)
 {
-    ifstream ifs(filename, ios::binary|ios::ate);
-    ifstream::pos_type pos = ifs.tellg();
+    std::ifstream ifs(filename, std::ios::binary|std::ios::ate);
+    std::ifstream::pos_type pos = ifs.tellg();
 
     std::vector<char>  result(pos);
 
-    ifs.seekg(0, ios::beg);
+    ifs.seekg(0, std::ios::beg);
     ifs.read(&result[0], pos);
 
     return result;
@@ -59,13 +61,16 @@ static std::vector<char> ReadAllBytes(char const* filename)
 int main(){
     createBinaryFile("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
 
-    vector<char> arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
-    for (auto el : arr) cout << el;
+    std::vector<char> arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
+    for (auto el : arr) std::cout << el;
 
     std::cout << '\n';
 
-    arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
-    for (auto el : arr) cout << el;
+    reverseCopyBinaryFile("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin",
+                          "/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/output.bin");
+
+    arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/output.bin");
+    for (auto el : arr) std::cout << el;
 
     return 0;
 }
