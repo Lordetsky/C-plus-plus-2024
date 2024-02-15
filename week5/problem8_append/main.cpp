@@ -8,13 +8,16 @@
 /// Develop a program to append content to the end of an existing file without overwriting its current content.
 ///////////////////////////////////////////////////////////////////////////////
 
-#include <fstream>
 #include <iostream>
-#include <string>
 
-void appendToFile(const std::string& filePath, const std::string& content);
+void appendToFile(const std::string& filePath, const std::string& content){
+    FILE* file = std::fopen(filePath.c_str(), "a");
+    std::fprintf(file, "%s", content.c_str());
+    std::fclose(file);
+}
 
 int main() {
-    appendToFile("existing_file.txt", "Appended content.\n");
+    appendToFile("/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem8_append/existing_file.txt",
+                 "Appended content.\n");
     return 0;
 }

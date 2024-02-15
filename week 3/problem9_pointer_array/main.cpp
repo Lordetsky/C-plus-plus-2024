@@ -13,9 +13,35 @@
 
 #include <iostream>
 
+
 int main()
 {
-    // Your code here
+    std::vector<int> arr;
+    int counter = 0;
+    int *ptr = &counter;
+    std::string str, num;
+    std::getline(std::cin, str);
+
+    while (!str.empty()) {
+        for (char c : str) {
+            if (isdigit(c)) num += c;
+            else if (!num.empty()){
+                arr.push_back(std::stoi(num));
+                (*ptr)++;
+                num = "";
+            }
+        }
+
+        if (!num.empty()){
+            arr.push_back(std::stoi(num));
+            (*ptr)++;
+            num = "";
+        }
+
+        std::getline(std::cin, str);
+    }
+
+    std::cout << counter;
 
     return 0;
 }

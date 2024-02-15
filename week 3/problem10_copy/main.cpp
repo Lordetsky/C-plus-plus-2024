@@ -16,7 +16,19 @@
 
 int main()
 {
-    // Your code here
+    int size;
+    std::cin >> size;
+
+    int arr[size], new_arr[size], *ptr[size];
+
+    for (int i = 0; i < size; i++){
+        std::cin >> arr[i];
+        ptr[i] = &arr[i];
+    }
+
+    for (int i = 0; i < size; i++) new_arr[i] = (*ptr[i]);
+
+    for (auto el : new_arr) std::cout << el << ' ';
 
     return 0;
 }

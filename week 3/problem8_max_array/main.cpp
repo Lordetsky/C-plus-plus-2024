@@ -13,9 +13,22 @@
 
 #include <iostream>
 
+int max_num(int *arr, int size){
+    int maximum = arr[0];
+    for (int i = 1; i < size; i++) if (maximum < arr[i]) maximum = arr[i];
+
+    return maximum;
+}
+
 int main()
 {
-    // Your code here
+    int size;
+    std::cin >> size;
+
+    int arr[size];
+    for (int i = 0; i < size; i++) std::cin >> arr[i];
+
+    std::cout << max_num(arr, size);
 
     return 0;
 }

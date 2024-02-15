@@ -12,9 +12,36 @@
 #include <iostream>
 #include <cctype> // For toupper()
 
-void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath);
+void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath){
+    std::ifstream input(inputFilePath);
+    std::ofstream output(outputFilePath);
+    if (!input.is_open() or !output.is_open()) {
+        std::cout << "Error blinb";
+        return;
+    }
+    else std::cout << "Vse norm" << ' ';
+
+    std::vector<std::string> up_file;
+    std::string str;
+    int counter = 0;
+
+    while (std::getline(input, str)) {
+        if (!str.empty()) {
+            for (auto & c : str) if (islower(c)) c = toupper(c);
+            up_file.push_back(str);
+        }
+        else up_file.push_back("");
+    }
+    input.close();
+
+    std::copy(up_file.begin(), up_file.end(),
+              std::ostream_iterator<std::string>(output, "\n"));
+
+    output.close();
+}
 
 int main() {
-    convertToLowercase("input.txt", "output_uppercase.txt");
+    convertToLowercase("/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem10_change/input.txt",
+                       "/Users/senya/CLionProjects/C-plus-plus-2024/week5/problem10_change/output_uppercase.txt");
     return 0;
 }
