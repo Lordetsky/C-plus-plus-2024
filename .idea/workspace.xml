@@ -31,16 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27fe050e-8fb5-44b5-94ea-cc403f8bf828" name="Changes" comment="week 5">
-      <change afterPath="$PROJECT_DIR$/week5/problem11_cipher/encrypted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5/problem11_cipher/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/week5/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/week5/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/week5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week5/problem11_cipher/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week5/problem11_cipher/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/problem9_byte/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/week5/problem9_byte/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +101,7 @@
     "CMake Application.ex1.executor": "Run",
     "CMake Application.problem10_change.executor": "Run",
     "CMake Application.problem10_copy.executor": "Run",
+    "CMake Application.problem11_cipher.executor": "Run",
     "CMake Application.problem1_circleArea.executor": "Run",
     "CMake Application.problem1_sum.executor": "Run",
     "CMake Application.problem2_copy.executor": "Run",
@@ -239,7 +232,7 @@
       <workItem from="1707509686291" duration="10350000" />
       <workItem from="1707520072451" duration="11801000" />
       <workItem from="1707747031434" duration="10000" />
-      <workItem from="1707751106899" duration="22372000" />
+      <workItem from="1707751106899" duration="23445000" />
     </task>
     <task id="LOCAL-00001" summary="Creating project">
       <option name="closed" value="true" />
