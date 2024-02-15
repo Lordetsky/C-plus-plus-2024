@@ -1,4 +1,0 @@
-C:/Users/79859/CLionProjects/C-plus-plus-2024/workshop 2/cmake-build-debug/CMakeFiles/ex1.dir
-C:/Users/79859/CLionProjects/C-plus-plus-2024/workshop 2/cmake-build-debug/CMakeFiles/ex2.dir
-C:/Users/79859/CLionProjects/C-plus-plus-2024/workshop 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/79859/CLionProjects/C-plus-plus-2024/workshop 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

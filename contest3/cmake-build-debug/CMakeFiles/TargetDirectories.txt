@@ -1,8 +1,0 @@
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemA.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemB.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemC.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemD.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemE.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/ProblemF.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/senya/CLionProjects/C-plus-plus-2024/contest3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
