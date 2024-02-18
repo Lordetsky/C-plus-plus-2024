@@ -72,6 +72,7 @@ int main(){
     arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/output.bin");
     for (auto el : arr) std::cout << el;
 
+    std::cout << "NE rabotaet";
     return 0;
 }
 
