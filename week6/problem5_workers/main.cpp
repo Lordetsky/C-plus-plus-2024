@@ -119,5 +119,6 @@ int main() {
 
     readFile( "/Users/senya/CLionProjects/C-plus-plus-2024/week6/problem5_workers/input.csv",
               "/Users/senya/CLionProjects/C-plus-plus-2024/week6/problem5_workers/output.csv");
+
     return 0;
 }
