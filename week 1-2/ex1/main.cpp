@@ -14,7 +14,6 @@
 
 #include <iostream>
 
-
 int main()
 {
     size_t sizeofchar = sizeof(char);
