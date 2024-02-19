@@ -12,6 +12,7 @@
 #include <iostream>
 #include <fstream>
 
+
 void sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath){
     std::ifstream input(inputFilePath);
     std::ofstream output(outputFilePath);
