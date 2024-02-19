@@ -41,7 +41,6 @@ bool IsPasswordValid(std::string str){
     return false;
 }
 
-
 int main()
 {
     std::string str;
