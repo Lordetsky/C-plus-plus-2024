@@ -14,7 +14,7 @@
 
 #include <iostream>
 
-// the entrypoint of the application
+
 int main()
 {
     size_t sizeofchar = sizeof(char);
