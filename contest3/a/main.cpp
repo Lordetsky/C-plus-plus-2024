@@ -48,7 +48,7 @@ int main()
     std::cout << "Input file contains:" << '\n'
               << letters << " letters" << '\n'
               << words << " words" << '\n'
-              << lines << " lines";Ы
+              << lines << " lines";
 
     file.close();
     return 0;
