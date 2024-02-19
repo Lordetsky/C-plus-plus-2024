@@ -33,13 +33,28 @@ void createBinaryFile(const std::string& filePath) {
 }
 
 void reverseCopyBinaryFile(const std::string& inputFilePath, const std::string& outputFilePath){
-    std::ifstream file (inputFilePath, std::ios::in | std::ios::binary);
-    std::ofstream up_file (inputFilePath, std::ios::out | std::ios::binary);
-
-    char x;
-    while(file.read((char*) &x, sizeof(x))) {
-        up_file.write((char *) &x, sizeof(x));
+    std::ifstream file (inputFilePath, std::ios::binary);
+    std::ofstream up_file(outputFilePath, std::ios::binary);
+    if (!file.is_open()) {
+        std::cout << "Error blinb";
+        return;
     }
+    else std::cout << "Vse norm" << '\n';
+    file.seekg(0, std::ios::end);
+    std::streamsize size = file.tellg();
+    file.seekg(0, std::ios::beg);
+    char *buffer = new char [size];
+    char *ans = new char [size];
+
+    file.read(buffer, size);
+    std::cout << size << '\n';
+
+
+    for (auto i = size - 1; i >= 0; i--){
+        std::cout << std::hex << static_cast<int>(buffer[i]) << ' ';
+        up_file.write(&buffer[i], 1);
+    }
+    std::cout << '\n';
 
     file.close();
     up_file.close();
@@ -59,20 +74,20 @@ static std::vector<char> ReadAllBytes(char const* filename)
 }
 
 int main(){
-    createBinaryFile("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
+    createBinaryFile("/Users/senya/CLionProjects/Plusi dla loxov/week5/cmake-build-debug/inpu.bin");
 
-    std::vector<char> arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin");
+    std::vector<char> arr = ReadAllBytes("/Users/senya/CLionProjects/Plusi dla loxov/week5/cmake-build-debug/inpu.bin");
     for (auto el : arr) std::cout << el;
 
     std::cout << '\n';
 
-    reverseCopyBinaryFile("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/input.bin",
-                          "/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/output.bin");
+    reverseCopyBinaryFile("/Users/senya/CLionProjects/Plusi dla loxov/week5/cmake-build-debug/inpu.bin",
+                          "/Users/senya/CLionProjects/Plusi dla loxov/week5/cmake-build-debug/output.bin");
 
-    arr = ReadAllBytes("/Users/senya/CLionProjects/C-plus-plus-2024/week5/cmake-build-debug/output.bin");
+    arr = ReadAllBytes("/Users/senya/CLionProjects/Plusi dla loxov/week5/cmake-build-debug/output.bin");
     for (auto el : arr) std::cout << el;
 
-    std::cout << "NE rabotaet";
+//    std::cout << "NE rabotaet";
     return 0;
 }
 
