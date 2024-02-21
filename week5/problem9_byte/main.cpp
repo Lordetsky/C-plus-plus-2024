@@ -44,7 +44,6 @@ void reverseCopyBinaryFile(const std::string& inputFilePath, const std::string& 
     std::streamsize size = file.tellg();
     file.seekg(0, std::ios::beg);
     char *buffer = new char [size];
-    char *ans = new char [size];
 
     file.read(buffer, size);
     std::cout << size << '\n';
