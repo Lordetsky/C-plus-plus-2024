@@ -93,7 +93,7 @@ public:
                                 departure_time[0], departure_time[1], departure_time[2]);
     }
 
-    void info(){
+    void info(std::string flag){
         std::string dep_time = std::to_string(departure_time[0]) + ":" +
                 std::to_string(departure_time[1]) + ":" + std::to_string(departure_time[2]);
         std::string dest_time = std::to_string(destination_time[0]) + ":" +
@@ -101,9 +101,12 @@ public:
 
         std::vector<int> array = flight_time.get_info();
         std::string f_time = std::to_string(array[0]) + ":" + std::to_string(array[1]) + ":" + std::to_string(array[2]);
-
-        std::cout << std::setw(20) << departure_airport << std::setw(20) <<
-                    dep_time << std::setw(20) << dest_time << std::setw(20) << f_time << "\n";
+        if (flag == "dest")
+            std::cout << std::setw(20) << departure_airport << std::setw(20) <<
+                        dep_time << std::setw(20) << dest_time << std::setw(20) << f_time << "\n";
+        else
+            std::cout << std::setw(20) << destination_airport << std::setw(20) <<
+                      dep_time << std::setw(20) << dest_time << std::setw(20) << f_time << "\n";
     }
 };
 
@@ -126,7 +129,7 @@ void print_table(std::vector<Flight> table, std::string name){
 
     for (auto el : table){
         if (el.destination_airport == name) {
-            el.info();
+            el.info("dest");
             counter++;
         }
     }
@@ -138,7 +141,7 @@ void print_table(std::vector<Flight> table, std::string name){
 
     for (auto el : table){
         if (el.departure_airport == name) {
-            el.info();
+            el.info("dep");
             counter++;
         }
     }
@@ -153,7 +156,7 @@ int main() {
 
     std::vector<Flight> table = create_flight_table(flights, airports);
 
-    std::cout << std::setw(20) << " " << std::setw(20) << "dep time" << std::setw(20) <<
+    std::cout << std::setw(20) << "airport" << std::setw(20) << "dep time" << std::setw(20) <<
                 "arr time" << std::setw(20) << "flight time\n";
 
     std::vector<std::string> all_airports;
