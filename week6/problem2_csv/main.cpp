@@ -56,12 +56,12 @@ std::vector<std::vector<std::string>> readCSV(const std::string& filePath){
 }
 
 int main() {
-    create("/Users/senya/CLionProjects/C-plus-plus-2024/week6/problem2_csv/read.csv");
+    create("/Users/senya/CLionProjects/Plusi dla loxov/week6/problem2_csv/read.csv");
     std::vector<std::vector<std::string>> file_info;
-    file_info = readCSV("/Users/senya/CLionProjects/C-plus-plus-2024/week6/problem2_csv/read.csv");
+    file_info = readCSV("/Users/senya/CLionProjects/Plusi dla loxov/week6/problem2_csv/read.csv");
 
     std::vector<float> average;
-    for(int i = 0; i < file_info.size(); i++) average.push_back(0);
+    for(int i = 0; i < file_info[0].size(); i++) average.push_back(0);
 
     for (auto num : file_info){
         for (int j = 0; j < num.size(); j++){
@@ -69,8 +69,8 @@ int main() {
         }
     }
 
-    for(int i = 0; i < file_info.size(); i++){
-        average[i] /= file_info.size();
+    for(int i = 0; i < file_info[0].size(); i++){
+        average[i] /= file_info[0].size();
     }
 
     for (auto i : average) std::cout << i << ' ';
