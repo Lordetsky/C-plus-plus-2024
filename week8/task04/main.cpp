@@ -1,9 +1,3 @@
-#include <algorithm>
-#include <iostream>
-#include <map>
-#include <numeric>
-#include <vector>
-
 /*
 Create a program that manages a dictionary of terms and 
 their definitions. Implement functionalities to read term-definition 
@@ -33,12 +27,30 @@ Ensure error handling for file input/output operations and dictionary operations
 
 #include <iostream>
 #include <fstream>
-#include <string>
+#include <sstream>
 #include <map>
+
 
 // Function to load dictionary from a file
 void loadDictionary(const std::string& filename, std::map<std::string, std::string>& dictionary) {
-    
+    std::ifstream input(filename);
+    if (!input.is_open()){
+        std::cout << "Aboba ne rabotaet\n";
+        return;
+    }
+    else std::cout << "Zae... vse norm\n";
+
+    std::string str, word_1, word_2;
+    std::vector<std::string> key_value;
+    while(std::getline(input, str)){
+        std::stringstream line(str);
+        std::getline(line, word_1);
+        std::getline(line, word_2);
+        std::getline(line, word_2);
+        dictionary.insert({word_1, word_2});
+    }
+
+    input.close();
 }
 
 // Function to display definition of a term

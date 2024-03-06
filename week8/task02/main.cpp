@@ -19,11 +19,8 @@
 ///popular seasons, and the position of the first response choosing summer.
 
 #include <iostream>
-#include <algorithm>
 #include <map>
-#include <numeric>
 
-int taboba(){return 1;}
 
 int main() {
     std::vector<char> responses = {'W', 'S', 'U', 'A', 'W', 'S', 'U',
@@ -33,9 +30,12 @@ int main() {
     int s = std::count_if(responses.begin(), responses.end(), [](char c){return c == 'S';});
     int u = std::count_if(responses.begin(), responses.end(), [](char c){return c == 'U';});
     int a = std::count_if(responses.begin(), responses.end(), [](char c){return c == 'A';});
-    int first_u = std::find_if(responses.begin(), responses.end(), [](char c){return c == 'U';}) - responses.begin();
-    std::cout << "Amount of responses: " << responses.size() << '\n';
-    std::cout << "The most popular season: " <<
+    int first_u = std::find_if(responses.begin(), responses.end(),
+                               [](char c){return c == 'U';}) - responses.begin();
+
+    std::cout << "Amount of responses: " << responses.size() << '\n'
+                << "The most popular season: " << std::max({w, s, u, a}) << '\n'
+                << "The first response that chose summer: " << first_u + 1;
 
     return 0;
 }
