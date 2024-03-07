@@ -31,6 +31,16 @@ Ensure error handling for file input/output operations and dictionary operations
 #include <map>
 
 
+struct Dictionary{
+private:
+    std::map<std::string, std::string> dict;
+
+public:
+    std::string& operator[](std::string key){
+        return dict[key];
+    }
+};
+
 // Function to load dictionary from a file
 void loadDictionary(const std::string& filename, std::map<std::string, std::string>& dictionary) {
     std::ifstream input(filename);
@@ -44,10 +54,11 @@ void loadDictionary(const std::string& filename, std::map<std::string, std::stri
     std::vector<std::string> key_value;
     while(std::getline(input, str)){
         std::stringstream line(str);
-        std::getline(line, word_1);
+        line >> word_1 >> word_2;
         std::getline(line, word_2);
-        std::getline(line, word_2);
+        word_2.erase(word_2.begin());
         dictionary.insert({word_1, word_2});
+//        std::cout << word_1 << " - " << word_2 << '\n';
     }
 
     input.close();
@@ -55,27 +66,54 @@ void loadDictionary(const std::string& filename, std::map<std::string, std::stri
 
 // Function to display definition of a term
 void lookupTerm(const std::string& term, const std::map<std::string, std::string>& dictionary) {
-    
+    for (auto key : dictionary){
+        if (key.first == term){
+            std::cout << term << " - " << key.second << '\n';
+            return;
+        }
+    }
+    std::cout << "There is no info about " << term << " in dictionary\n";
 }
 
 // Function to add a new term-definition pair to the dictionary
 void addTerm(std::map<std::string, std::string>& dictionary) {
-    
+    std::string word_1, word_2;
+    std::cin >> word_1 >> word_2;
+    std::getline(std::cin, word_2);
+    word_2.erase(word_2.begin());
+    dictionary.insert({word_1, word_2});
+    std::cout << word_1 << " was added\n";
 }
 
 // Function to delete a term from the dictionary
 void deleteTerm(const std::string& term, std::map<std::string, std::string>& dictionary) {
-    
+    auto it = dictionary.find(term);
+    if (it != dictionary.end()) {
+        dictionary.erase(it);
+        std::cout << term << " was deleted\n";
+    }
+    else std::cout << "The term does not exist\n";
 }
 
 // Function to save dictionary to a file
 void saveDictionary(const std::string& filename, const std::map<std::string, std::string>& dictionary) {
-    
+    std::ofstream output(filename);
+    if (!output.is_open()){
+        std::cout << "Aboba ne rabotaet\n";
+        return;
+    }
+    else std::cout << "Zae... vse norm\n";
+
+    for (auto el : dictionary)
+        output << el.first << " -" << el.second << '\n';
+
+    std::cout << "Dictionary was saved";
+    output.close();
 }
 
 int main() {
     std::map<std::string, std::string> dictionary;
-    std::string filename = "dictionary.txt";
+    std::string filename = "/Users/senya/CLionProjects/Plusi dla loxov/week8/task04/dictionary.txt";
     loadDictionary(filename, dictionary);
 
     int choice;
