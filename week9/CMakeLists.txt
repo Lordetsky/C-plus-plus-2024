@@ -15,3 +15,5 @@ set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
 add_executable(titanic titanic/main.cpp)
+add_executable(cities problem1_cities/main.cpp)
+add_executable(matches problem2_matches/main.cpp)

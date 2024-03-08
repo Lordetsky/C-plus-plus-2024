@@ -166,7 +166,7 @@ void printVecIter(Iterator begin, Iterator end) {
 }
 
 int main() {
-    const std::string fileName = "../../../data/titanic/titanic.csv";
+    const std::string fileName = "/Users/senya/CLionProjects/Plusi dla loxov/week9/data/titanic/titanic.csv";
     std::ifstream inputFile(fileName);
     if (!inputFile.is_open()) {
         std::cerr << "Failed to open file: " << fileName << std::endl;
