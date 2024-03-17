@@ -75,6 +75,11 @@ public:
     }
 };
 
+Complex reversed(Complex other)
+{
+    return Complex(other.Re(), -other.Im());
+}
+
 Complex operator+(double num, const Complex& other)
 {
     return other + num;
@@ -82,7 +87,7 @@ Complex operator+(double num, const Complex& other)
 
 Complex operator-(double num, const Complex& other)
 {
-    return other - num;
+    return -other + num;
 }
 
 Complex operator*(double num, const Complex& other)
@@ -90,9 +95,11 @@ Complex operator*(double num, const Complex& other)
     return other * num;
 }
 
-Complex operator/(double num, const Complex& other)
+Complex operator/(double n, const Complex& other)
 {
-    return other / num;
+    Complex numerator = reversed(other) * n;
+    Complex denominator = other * reversed(other);
+    return numerator / denominator.Re();
 }
 
 double abs(const Complex& other)
