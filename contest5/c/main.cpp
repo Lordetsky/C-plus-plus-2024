@@ -14,7 +14,7 @@ public:
         imaginary = i;
     };
 
-    Complex& operator=(Complex& other)
+    Complex& operator=(const Complex& other)
     {
         real = other.real;
         imaginary = other.imaginary;
