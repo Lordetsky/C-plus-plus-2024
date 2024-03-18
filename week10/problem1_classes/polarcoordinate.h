@@ -7,6 +7,7 @@ class PolarCoordinate
 
 public:
     PolarCoordinate(double radius, double angle);
+    PolarCoordinate& operator=(const PolarCoordinate& b);
 
     double getRadius() const { return _radius; }
     double getAngle() const { return _angle; }
@@ -26,4 +27,4 @@ private:
     double _angle;
 };
 
-#endif// POLARCOORDINATE_H
+#endif

@@ -13,7 +13,8 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -Werror=return-type")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
-add_executable(problem1_classes   problem1_classes/main.cpp)
+add_executable(problem1_classes problem1_classes/main.cpp   problem1_classes/polarcoordinate.cpp
+        problem1_classes/polarcoordinate.h  problem1_classes/vector2d.cpp problem1_classes/vector2d.h)
 add_executable(problem1_vector3d   problem1_vector3d/main.cpp)
 add_executable(problem2_static   problem2_static/main.cpp)
 
