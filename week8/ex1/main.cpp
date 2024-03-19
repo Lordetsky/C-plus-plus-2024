@@ -1,7 +1,8 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
-// STL
+
+
 int main() {
   std::vector<int> vec;
   vec.push_back(10); // O(1)
