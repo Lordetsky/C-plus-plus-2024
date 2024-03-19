@@ -16,9 +16,7 @@
 #include <vector>
 #include <stdexcept>
 
-int sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath) {
-    
-}
+int sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath) {return 0;}
 
 int main() {
     // Look at week 5 problem1_sum
