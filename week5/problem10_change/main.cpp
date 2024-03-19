@@ -11,6 +11,8 @@
 #include <fstream>
 #include <iostream>
 #include <cctype> // For toupper()
+#include <vector>
+
 
 void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath){
     std::ifstream input(inputFilePath);

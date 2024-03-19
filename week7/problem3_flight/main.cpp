@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <vector>
 
 
 struct Time{

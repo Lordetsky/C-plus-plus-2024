@@ -1,7 +1,7 @@
 #include <cmath>
 #include <iostream>
-
 #include "polarcoordinate.h"
+
 
 const double EPS = 1e-6;
 

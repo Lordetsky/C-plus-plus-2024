@@ -12,6 +12,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include <vector>
+
 
 bool filter_arr(int element){
     if (element > 8) return true;

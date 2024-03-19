@@ -15,6 +15,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include <vector>
 
 
 struct Time{
@@ -34,7 +35,8 @@ public:
             hours = 0;
             minutes = 0;
             seconds = 0;
-            std::cout << "The second event is later than first" << '\n';
+            print_info();
+            std::cout << "The second event is later than first" << "\n\n";
         }
         else {
             hours = event1_hours - event2_hours;
@@ -57,6 +59,8 @@ public:
                 }
             }
             else seconds = event1_seconds - event2_seconds;
+            print_info();
+            std::cout << '\n';
         }
     }
 
@@ -73,9 +77,6 @@ public:
 int main() {
     Time events1(4, 34, 50, 3, 0, 0);
     Time events2(0, 15, 43, 18, 12, 29);
-
-    events1.print_info();
-    events2.print_info();
 
     return 0;
 }

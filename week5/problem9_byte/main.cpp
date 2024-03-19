@@ -9,6 +9,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include <fstream>
 #include <iostream>
+#include <vector>
+
 
 void createBinaryFile(const std::string& filePath) {
     // Открываем файл для записи в бинарном режиме

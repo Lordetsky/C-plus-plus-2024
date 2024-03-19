@@ -1,6 +1,7 @@
 #include <cmath>
 #include "vector2d.h"
 
+
 Vector2d::Vector2d(): _x(0), _y(0){}
 
 Vector2d::Vector2d(double x, double y): _x(x), _y(y){}

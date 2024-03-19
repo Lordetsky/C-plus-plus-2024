@@ -29,6 +29,7 @@ Ensure error handling for file input/output operations and dictionary operations
 #include <fstream>
 #include <sstream>
 #include <map>
+#include <vector>
 
 
 struct Dictionary{

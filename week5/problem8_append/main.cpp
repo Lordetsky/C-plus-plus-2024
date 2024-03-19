@@ -10,6 +10,7 @@
 
 #include <iostream>
 
+
 void appendToFile(const std::string& filePath, const std::string& content){
     FILE* file = std::fopen(filePath.c_str(), "a");
     std::fprintf(file, "%s", content.c_str());

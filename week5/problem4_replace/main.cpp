@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 
 
 std::string join(const std::vector<std::string>& tokens, char delimiter) {

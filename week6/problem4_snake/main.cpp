@@ -15,6 +15,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include <fstream>
 #include <iostream>
+#include <vector>
+
 
 void createMatrix(const std::string& filePath, int size){
     std::ofstream file(filePath);

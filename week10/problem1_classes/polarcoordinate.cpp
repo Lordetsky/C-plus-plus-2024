@@ -2,6 +2,7 @@
 #include "vector2d.h"
 #include "cmath"
 
+
 PolarCoordinate::PolarCoordinate(double radius, double angle): _radius(radius), _angle(angle) {}
 
 PolarCoordinate& PolarCoordinate::operator= (const PolarCoordinate &b){

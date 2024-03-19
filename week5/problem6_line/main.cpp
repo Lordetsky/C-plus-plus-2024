@@ -10,6 +10,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 
 void extractLineToFile(const std::string& inputFilePath, const std::string& outputFilePath, int lineNum){

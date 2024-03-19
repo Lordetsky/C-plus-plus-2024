@@ -3,14 +3,6 @@
 #include <fstream>
 #include <sstream>
 
-//     Main task - to implement the function fillCountries to put countries into a container
-// (vector<Country> or map<std::string, Country>).
-
-//     Intermediate steps:
-//     1. Define operator< for both Cities and Countries based on their names.
-//     2. Read cities as pairs <City, name of the country>.
-//     3. Use the name of the country to find if there is such country in the container.
-//     4. Add a country to the container or a city to an existing country.
 
 struct Coordinate
 {
