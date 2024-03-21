@@ -13,8 +13,4 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
-add_executable(ProblemA a/main.cpp)
-add_executable(ProblemB b/main.cpp)
-add_executable(ProblemC c/main.cpp)
-add_executable(ProblemD d/main.cpp)
-add_executable(ProblemE e/main.cpp)
+add_executable(ProblemA a/main.cpp a/bank_accounts.h)
