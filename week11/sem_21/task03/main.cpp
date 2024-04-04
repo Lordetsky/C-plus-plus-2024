@@ -1,8 +1,3 @@
-
-#include <iostream>
-#include <string>
-using namespace std;
-
 // User class: The base class from which the
 // all other classes are inherited. Includes
 // basic information about the user (for example, name).
@@ -26,19 +21,89 @@ using namespace std;
 //Administrator. Every class must provide a method
 // accessResources() demonstrating the user's access level.
 
-class User {
- protected:
-  string name;
+#include <iostream>
+#include <string>
 
- public:
-  User(string name) : name(name) {}
-  virtual void accessResources() const {
-    cout << name << " has basic user access." << endl;
-  }
-  virtual ~User() {}
+class User {
+protected:
+    std::string name;
+
+public:
+    User(std::string name) : name(name) {
+      std::cout << "User " << name << " was created" << '\n';
+    }
+
+    virtual void accessResources() const {
+      std::cout << name << " has basic user access" << std::endl;
+    }
+
+    ~User() {
+      std::cout << "User " << name << " was deleted" << '\n';
+    }
 };
 
-int main() {
+class Employee: User {
+public:
+    Employee(std::string name): User(name) {
+        std::cout << "Employee " << name << " was created" << '\n';
+    }
 
-  return 0;
+    void accessResources() const override{
+        std::cout << name << " has basic employee access" << std::endl;
+    }
+
+    ~Employee() {
+        std::cout << "Employee " << name << " was deleted" << '\n';
+    }
+};
+
+class Manager: User {
+public:
+    Manager(std::string name): User(name) {
+        std::cout << "Manager " << name << " was created" << '\n';
+    }
+
+    void accessResources() const override{
+        std::cout << name << " has mid employee access" << std::endl;
+    }
+
+    ~Manager() {
+        std::cout << "Manager " << name << " was deleted" << '\n';
+    }
+};
+
+class Administrator: Manager, Employee {
+protected:
+    std::string name;
+
+public:
+    Administrator(std::string name): Manager(name), Employee(name), name(name) {
+        std::cout << "Administrator " << name << " was created" << '\n';
+    }
+
+    void accessResources() const override{
+        std::cout << name << " has highest employee access" << std::endl;
+    }
+
+    ~Administrator() {
+        std::cout << "Administrator " << name << " was deleted" << '\n';
+    }
+};
+
+
+int main() {
+    User user("Aleko");
+    Employee employee("Makarjomba");
+    Manager manager("Nihad");
+    Administrator administrator("Maya");
+    std::cout << '\n';
+
+    user.accessResources();
+    employee.accessResources();
+    manager.accessResources();
+    administrator.accessResources();
+
+    std::cout << '\n';
+
+    return 0;
 }
