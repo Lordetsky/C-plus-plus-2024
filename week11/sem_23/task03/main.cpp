@@ -29,17 +29,68 @@ OrderException, который наследуется от std::exception.
 #include <exception>
 #include <string>
 
-int main() {
-  try {
-    processOrder(-99, 12.0);
-  } catch (const OrderException& e) {
-    std::cout << "исключение: " << e.what() << "\nкод ошибки: " << e.getErrorCode() << std::endl;
-  }
+class OrderException: public std::exception {
+private:
+    std::string message;
+    int error_code;
 
-  try {
+public:
+    OrderException(std::string m, int code): message(m), error_code(code) {}
+
+    const char* what() const noexcept override {
+        return message.c_str();
+    }
+
+    int getErrorCode() const{
+        return error_code;
+    }
+};
+
+void processOrderAmount(int amount){
+    if (amount < 0){
+        throw OrderException("Количество товара меньше нуля", 234);
+    }
+}
+
+void processOrderPrice(double price){
+    double min_price = 10;
+
+    if (price < min_price){
+        throw OrderException("Стоимость товара меньше минимальной", 235);
+    }
+}
+
+void processOrder(int amount, double price){
+    bool flag = true;
+
+    std::cout << "Всего " << amount << " единиц товара. Стоимость каждого: " << price << " рублей." << "\n";
+
+    try {
+        processOrderAmount(amount);
+    }
+    catch (const OrderException& e) {
+        std::cout << "\033[1;31m" << "Исключение: " << e.what()
+                    << "\nКод ошибки: " << e.getErrorCode() << "\033[0m" << "\n\n";
+        flag = false;
+    }
+
+    try {
+        processOrderPrice(price);
+    }
+    catch (const OrderException& e) {
+        std::cout << "\033[1;31m" << "Исключение: " << e.what()
+                    << "\nКод ошибки: " << e.getErrorCode() << "\033[0m" << "\n\n";
+        flag = false;
+    }
+
+    if (flag) {
+        std::cout << "\033[1;32m" << "Товар подходит по всем критериям!" << "\033[0m" << '\n';
+    }
+}
+
+int main() {
+
+    processOrder(-99, 12.0);
+
     processOrder(10, 5.0);
-  } catch (const OrderException& e) {
-    std::cout << "исключение: " << e.what() << "\nкод ошибки: " << e.getErrorCode() << std::endl;
-  }
-  return 0;
 }

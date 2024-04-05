@@ -1,10 +1,3 @@
-#include <chrono>
-#include <fstream>
-#include <iomanip>
-#include <iostream>
-#include <sstream>
-#include <string>
-
 /*
 Design a logging system in C++ that allows for messages of different severity levels to be
  recorded to a file. Your task involves creating a `Logger` class that supports logging messages
@@ -21,65 +14,72 @@ Implement a demonstration of using this logging system by creating a simple func
  level and ensure that the logging output includes relevant timestamps and message levels.
 */
 
+#include <chrono>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <sstream>
+#include <string>
+
 class Logger {
- public:
-  enum class Level {
+public:
+    enum class Level {
     ERROR = 0,
     WARNING,
     INFO,
     DEBUG,
-  };
+    };
 
- private:
-  std::ofstream logFile;
-  Level currentLevel;
+private:
+    std::ofstream logFile;
+    Level currentLevel;
 
-  Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) {
+    Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) {
 
-  }
+    }
 
-  Logger(const Logger &) = delete;
-  Logger &operator=(const Logger &) = delete;
+    Logger(const Logger &) = delete;
+    Logger &operator=(const Logger &) = delete;
 
- public:
-  ~Logger() {
+public:
+    ~Logger() {
 
-  }
-  static Logger &getInstance(const std::string &filename = "logfile.txt") {
+    }
+    static Logger &getInstance(const std::string &filename = "logfile.txt") {
     static Logger instance(filename);
     return instance;
-  }
-
-  void setLevel(Level level) {
-
-  }
-
-  void log(const std::string &message, Level level = Level::INFO) {
-
-  }
-
- private:
-  std::string levelToString(Level level) {
-    switch (level) {
-      case Level::DEBUG:
-        return "DEBUG";
     }
-  }
+
+    void setLevel(Level level) {
+        currentLevel = level;
+    }
+
+    void log(const std::string &message, Level level = Level::INFO) {
+
+    }
+
+private:
+    std::string levelToString(Level level) {
+        switch (level) {
+            case Level::DEBUG:
+                return "DEBUG";
+        }
+    }
 };
 
 auto &logger = Logger::getInstance();
 
 int sum(int a, int b) {
-  logger.log("Зашли в метод sum.", Logger::Level::DEBUG);
-  int res = a + b;
-  logger.log("Суммируем числа " + std::to_string(a) + " "
-                 + std::to_string(b) + "res = " + std::to_string(res),
-             Logger::Level::INFO);
-  return a + b;
+    logger.log("Зашли в метод sum.", Logger::Level::DEBUG);
+    int res = a + b;
+    logger.log("Суммируем числа " + std::to_string(a) + " "
+                + std::to_string(b) + "res = " + std::to_string(res),
+                Logger::Level::INFO);
+    return a + b;
 }
 
 int main() {
-  logger.setLevel(Logger::Level::DEBUG);
-  sum(10, 20);
-  return 0;
+    logger.setLevel(Logger::Level::DEBUG);
+    sum(10, 20);
+    return 0;
 }

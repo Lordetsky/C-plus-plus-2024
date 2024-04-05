@@ -1,6 +1,3 @@
-#include <iostream>
-
-
 /*
 В рамках организации благотворительного марафона, необходимо 
 создать программу для регистрации участников, которая строго 
@@ -45,19 +42,73 @@
 #include <exception>
 
 
+class AgeRestrictionException: public std::exception {
+private:
+    std::string message;
+
+public:
+    AgeRestrictionException(std::string m): message(m) {}
+
+    const char* what() const noexcept override {
+        return message.c_str();
+    }
+};
+
+void registerParticipantAge(int age){
+    if (age < 18 or age > 60){
+        throw AgeRestrictionException("Ваш возраст не соответствует требованиям для участия в марафоне.");
+    }
+}
+
+void registerParticipantDistance(int distance){
+    if (!(distance == 5 or distance == 10 or distance == 21)){
+        throw AgeRestrictionException("Вы можете выбрать только 5км, 10км или 21 км.");
+    }
+}
 
 int main() {
-  try {
-    registerParticipant(17);
-  } catch (AgeRestrictionException& e) {
-    std::cout << "Ошибка: " << e.what() << std::endl;
-  }
+    int age = 0, distance = 0, amount, counter = 0;
+    std::cout << "Введите кол-во участников: ";
+    std::cin >> amount;
+    std::cout << '\n';
 
-  try {
-    registerParticipant(50);
-  } catch (AgeRestrictionException& e) {
-    std::cout << "Ошибка: " << e.what() << std::endl;
-  }
+    for (int i =0; i < amount; i++){
+        std::cout << "Введите ваш возраст: ";
+        std::cin >> age;
+        std::cout << "Выберите дистанцию (5km, 10km, 21km): ";
+        std::cin >> distance;
 
-  return 0;
+        bool flag = true;
+        try {
+            registerParticipantAge(age);
+        }
+        catch (AgeRestrictionException& e) {
+            std::cout << "\033[1;31m" << "Ошибка: " << e.what() << "\033[0m" << '\n';
+            flag = false;
+        }
+
+        try {
+            registerParticipantDistance(distance);
+        }
+        catch (AgeRestrictionException& e) {
+            std::cout << "\033[1;31m" << "Ошибка: " << e.what() << "\033[0m" << '\n';
+            flag = false;
+        }
+
+        if (flag){
+            std::cout << "\033[1;32m" << "Участник успешно зарегистрирован!" << "\033[0m" << '\n';
+            counter++;
+        }
+
+        std::cout << '\n';
+    }
+
+    if (counter >= amount * 0.9){
+        std::cout << "\033[1;32m" << counter << " участников из " << amount << " были зарегистрированы" << "\033[0m" << '\n';
+    }
+    else{
+        std::cout << "\033[1;31m" << counter << " участников из " << amount << " были зарегистрированы" << "\033[0m" << '\n';
+    }
+
+    return 0;
 }
