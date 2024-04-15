@@ -1,6 +1,7 @@
 #ifndef SOLUTION_H
 #define SOLUTION_H
 
+
 #include <algorithm>
 #include <iostream>
 #include <map>
