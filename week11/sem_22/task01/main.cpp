@@ -34,20 +34,18 @@ private:
     std::ofstream logFile;
     Level currentLevel;
 
-    Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) {
-
+    explicit Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level){
+        logFile.open(filename);
     }
-
-    Logger(const Logger &) = delete;
-    Logger &operator=(const Logger &) = delete;
 
 public:
-    ~Logger() {
+    Logger(const Logger &) = delete;
+    Logger &operator=(const Logger &) = delete;
+    ~Logger() = default;
 
-    }
     static Logger &getInstance(const std::string &filename = "logfile.txt") {
-    static Logger instance(filename);
-    return instance;
+        static Logger instance(filename);
+        return instance;
     }
 
     void setLevel(Level level) {
@@ -55,19 +53,36 @@ public:
     }
 
     void log(const std::string &message, Level level = Level::INFO) {
+        if (!logFile.is_open()){
+            std::cout << "Aboba ne rabotaet\n";
+            return;
+        }
+        else std::cout << "Zae... vse norm\n";
 
+        time_t rawtime;
+        time(&rawtime);
+        auto time = std::put_time(std::localtime(&rawtime), "%Y-%m-%d %X");
+        setLevel(level);
+
+        logFile << time << ", " << levelToString(currentLevel) << ", " << message << '\n';
     }
 
 private:
-    std::string levelToString(Level level) {
+    static std::string levelToString(Level level) {
         switch (level) {
             case Level::DEBUG:
                 return "DEBUG";
+            case Level::ERROR:
+                return "ERROR";
+            case Level::WARNING:
+                return "WARNING";
+            case Level::INFO:
+                return "INFO";
         }
     }
 };
 
-auto &logger = Logger::getInstance();
+auto &logger = Logger::getInstance("/Users/senya/CLionProjects/Plusi dla loxov/week11/sem_22/task01/logfile.txt");
 
 int sum(int a, int b) {
     logger.log("Зашли в метод sum.", Logger::Level::DEBUG);
@@ -81,5 +96,11 @@ int sum(int a, int b) {
 int main() {
     logger.setLevel(Logger::Level::DEBUG);
     sum(10, 20);
+
+    time_t rawtime;
+    time(&rawtime);
+    std::cout << "Текущая дата/время : "
+              << std::put_time(std::localtime(&rawtime), "%Y-%m-%d %X");
+
     return 0;
 }
