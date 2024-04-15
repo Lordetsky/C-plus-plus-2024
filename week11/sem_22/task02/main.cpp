@@ -36,15 +36,109 @@ This task will test your ability to use polymorphism, design patterns (specifica
  management in C++.
  * */
 
+class MainLogger{
+public:
+    virtual ~MainLogger(){
+        std::cout << "Logger was closed" << '\n';
+    }
+
+    void logMessage(const std::string& msg) const{
+        std::cout << msg << '\n';
+    }
+};
+
+
+class FileLogger : public MainLogger{
+private:
+    std::string filename;
+    std::ofstream output;
+
+public:
+    void openFile(const std::string& path){
+        output.open(path);
+        if (!output.is_open()){
+            std::cout << "This file can`t be opened" << '\n';
+        }
+        else filename = path;
+    }
+
+    ~FileLogger() override{
+        std::cout << "File was closed" << '\n';
+    }
+};
+
+
+class DatabaseLogger : public MainLogger{
+private:
+    std::string filename;
+
+public:
+    void openDataBase(const std::string& path){
+        if (path == "Aboba"){
+            std::cout << "This DataBase can`t be opened" << '\n';
+        }
+        else filename = path;
+    }
+
+    ~DatabaseLogger() override{
+        std::cout << "DataBase was closed" << '\n';
+    }
+};
+
+
+class NetworkLogger : public MainLogger{
+private:
+    std::string network;
+
+public:
+    void openDataBase(const std::string& path){
+        if (path == "Aboba"){
+            std::cout << "This Network can`t be opened" << '\n';
+        }
+        else network = path;
+    }
+
+    ~NetworkLogger() override{
+        std::cout << "DataBase was closed" << '\n';
+    }
+};
+
+
+class LoggerFactory{
+private:
+
+public:
+    enum LogType{
+        FILE,
+        DATABASE,
+        NETWORK
+    };
+
+    static MainLogger* createLogger(LogType type = LogType::FILE){
+        switch (type) {
+            case FILE:
+                return new FileLogger();
+            case DATABASE:
+                return new DatabaseLogger();
+            case NETWORK:
+                return new NetworkLogger();
+        }
+    }
+};
+
 int main() {
-  auto fileLogger = LoggerFactory::createLogger(LoggerFactory::FILE);
-  fileLogger->logMessage("This is a file logging message.");
+    auto fileLogger = LoggerFactory::createLogger(LoggerFactory::FILE);
+    fileLogger->logMessage("This is a file logging message.");
 
-  auto databaseLogger = LoggerFactory::createLogger(LoggerFactory::DATABASE);
-  databaseLogger->logMessage("This is a database logging message.");
+    auto databaseLogger = LoggerFactory::createLogger(LoggerFactory::DATABASE);
+    databaseLogger->logMessage("This is a database logging message.");
 
-  auto networkLogger = LoggerFactory::createLogger(LoggerFactory::NETWORK);
-  networkLogger->logMessage("This is a network logging message.");
+    auto networkLogger = LoggerFactory::createLogger(LoggerFactory::NETWORK);
+    networkLogger->logMessage("This is a network logging message.");
 
-  return 0;
+    delete fileLogger;
+    delete databaseLogger;
+    delete networkLogger;
+
+    return 0;
 }
